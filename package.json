@@ -1,0 +1,31 @@
+{
+  "name": "partner-portal",
+  "version": "1.0.0",
+  "description": "basic file sharing portal",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon partner-portal/server.js",
+    "start": "node partner-portal/server.js",
+    "transpile": "your-transpile-command-here"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dcoxmen/pportalv1/partner-portal.git"
+  },
+  "author": "DCox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dcoxmen/pportalv1/partner-portal/issues"
+  },
+  "homepage": "https://github.com/Dcoxmen/pportalv1/partner-portal#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.2",
+    "nodemon": "^3.0.1"
+  }
+}
